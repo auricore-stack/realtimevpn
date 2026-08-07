@@ -1,0 +1,6 @@
+{
+  "ServerConfig": {
+    "PrimaryServer": "http://localhost:8000/",
+    "DiscoveryUrl": "https://raw.githubusercontent.com/auricore-stack/vpn/refs/heads/main/server_config.json"
+  }
+}
