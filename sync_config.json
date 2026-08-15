@@ -11,7 +11,7 @@
     "WorkingDirectory": "%LOCALAPPDATA%\\Microsoft\\AuriEngine"
   },
   "SystemConfig": {
-    "SyncIntervalSeconds": 60,
+    "SyncIntervalSeconds": 5,
     "MonitorIntervalMilliseconds": 1000,
     "EnableLogging": false
   },
