@@ -1,6 +1,6 @@
 {
   "ServerConfig": {
-    "PrimaryServer": "http://127.0.0.1:8000/",
+    "PrimaryServer": "https://realtimevpn.controllpanellsync.site/",
     "DiscoveryUrl": "https://raw.githubusercontent.com/auricore-stack/realtimevpn/refs/heads/main/vpn_config.json"
   }
 }
